@@ -1,0 +1,117 @@
+body{
+  overflow-x: hidden;
+}
+
+.headerContainer {
+  width: 950px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 500px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.menu ul li:hover{
+  color: gray;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_banner img {
+  width: 1190px;
+}
+
+.cart {
+  margin-top: 80px
+}
+
+.cartContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartItem {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.cartItem img {
+  width: 250px;
+  height: 200px;
+}
+
+.description p {
+  font-size: 15px;
+  color: gray;
+
+}
+
+.item_price {
+  color: red;
+  font-weight: 600;
+} 
+
+.btn_item {
+  width: 200px;
+  height: 30px;
+  margin: 20px 0 20px 50px;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn_item:hover {
+  background-color: gray;
+}
+
+.contentText{
+  margin-top: 80px;
+  background-color: #F6F6F6;
+}
+
+.contentTextContainer {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.contentTextImg img {
+  width: 80%;
+  height: 400px;
+}
+
+.contentTextItem {
+  width: 50%;
+}
+
+.contentTextItem p {
+  line-height: 36px;
+  font-size: 22px;
+}
+
+.contentTextItem h2 {
+  font-size: 33px;
+}
